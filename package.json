@@ -1,0 +1,33 @@
+{
+  "name": "spun-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Spun - laundry pickup & delivery prototype (Humber Bay Shores / Mimico pilot)",
+  "scripts": {
+    "start": "vite build && node server/index.js",
+    "serve": "node server/index.js",
+    "dev": "concurrently -n api,web -c cyan,magenta \"node --watch server/index.js\" \"vite\"",
+    "build": "vite build",
+    "seed": "node server/seed.js",
+    "e2e": "vite build && node scripts/e2e.js",
+    "screenshots": "vite build && node scripts/e2e.js"
+  },
+  "engines": {
+    "node": ">=20.19.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "concurrently": "^9.2.5",
+    "playwright-core": "^1.64.1",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "multer": "^2.4.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4",
+    "sql.js": "^1.15.0"
+  }
+}

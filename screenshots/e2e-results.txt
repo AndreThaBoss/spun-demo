@@ -1,0 +1,32 @@
+PASS  Out-of-zone postal code (M8W) is flagged
+PASS  Out-of-zone signup shows waitlist message
+PASS  In-zone postal code (M8V) accepted
+PASS  Signup requires photo consent
+PASS  New customer lands on home with first-order promo
+PASS  Preferences saved
+PASS  Price summary: $59 − $20 promo + $5 hang-dry, 13% HST = $49.72
+PASS  Booking shows the saved preferences
+PASS  Declined test card is rejected
+PASS  Paid order is created in Scheduled status
+PASS  Biweekly Standard: $112 + 13% HST = $126.56 per 4 weeks
+PASS  Subscription active after mock payment
+PASS  Plan schedule shown (Thursdays 7–9 pm)
+PASS  Plan paused
+PASS  Plan resumed
+PASS  Plan cancelled (plan chooser shown again)
+PASS  Customer tracking shows at-laundromat order with timeline
+PASS  Driver route lists pickups and deliveries
+PASS  Mark picked up is disabled until a photo is taken
+PASS  Driver marked 261019-01 picked up (with photo)
+PASS  Driver marked 261017-02 delivered (with photo)
+PASS  Partner view hides customer names and addresses
+PASS  Partner marked 261019-01 ready
+PASS  Partner received 261017-04 at laundromat
+PASS  Partner uploaded intake photo
+PASS  Admin sees the new customer's order (filter: scheduled)
+PASS  Admin assigned driver Dev Patel
+PASS  Admin advanced order through picked up → at laundromat
+PASS  Admin advanced to Ready
+PASS  Waitlisted signup appears in admin overview
+PASS  Customer sees admin's status updates on tracking timeline
+PASS  Customer sees pickup photo taken by driver
